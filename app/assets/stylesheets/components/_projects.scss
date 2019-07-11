@@ -81,7 +81,7 @@
   top: auto;
   bottom: 0;
   padding: 1em;
-  height: 5.5em;
+  height: 4em;
   background: #79FAC4;
   color: #3c4a50;
   -webkit-transition: -webkit-transform 0.35s;
@@ -209,4 +209,22 @@ img.test {
   padding: 0 10px;
 
 
+}
+
+
+
+@media (max-width: 1023px) {
+  img.test {
+  width: auto;
+  height: 20px;
+  padding: 0 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  img.test {
+  width: auto;
+  height: 40px;
+  padding: 0 10px;
+  }
 }
