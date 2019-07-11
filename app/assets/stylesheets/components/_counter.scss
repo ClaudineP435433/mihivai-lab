@@ -1,0 +1,43 @@
+.counter-frame {
+  margin: 400px auto;
+  text-align: center;
+
+}
+
+
+#counter{
+
+  font-size: 200px;
+  text-align: center;
+
+}
+
+
+.end{
+  color: #03e0ca;
+}
+
+.counter-txt {
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+
+}
+
+#counter.end {
+  width: 40px;
+}
+
+span {
+  text-align: center;
+}
+
+@media (max-width:767px) {
+  #counter {
+    font-size: 100px;
+  }
+
+}
+
+
+

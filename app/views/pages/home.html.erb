@@ -1,6 +1,453 @@
 <%= content_for :meta_title, "Yourdomain - Your Meta" %>
 
-<div class="container page-min-height">
-  <h1>Pages#Home</h1>
-  <p>Find me in app/views/pages/home.html.erb</p>
+  <!-- Banner -->
+<%#= image_tag "logo_banner.svg", class: "", alt: "" %>
+  <div class="banner">
+    <%= image_tag "logo_banner.svg", class: "logo-banner", alt: "mihivai logo" %>
+    <div class="container d-none d-md-block item-banner-absolute">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="item">
+            <h5 class="item-title"><b>Services</b></h5>
+            <h6 class="item-text">Développement web</h6>
+            <h6 class="item-text">Formation</h6>
+            <h6 class="item-text">Conseil</h6>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item">
+            <h5 class="item-title"><b>Contact</b></h5>
+            <h6 class="item-text">Jonathan Serafini</h6>
+            <h6 class="item-text">06 18 23 73 31</h6>
+            <h6 class="item-text">j.serafini@mihivai.com</h6>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item" style="padding-top: 84px;">
+            <h6 class="item-text">Claudine Pradal</h6>
+            <h6 class="item-text">07 67 51 06 48</h6>
+            <h6 class="item-text">clo.pradal@gmail.com</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="item-section-responsive d-md-none">
+    <h5 class="item-title"><b>Services</b></h5>
+    <div class="item-flex">
+      <h6 class="item-text item-margin">Développement web</h6>
+      <h6 class="item-text item-margin">Formation</h6>
+      <h6 class="item-text item-margin">Conseil</h6>
+    </div>
+
+    <h5 class="item-title"><b>Contact</b></h5>
+    <div class="item-flex">
+      <div>
+
+        <h6 class="item-text item-margin">Jonathan Serafini</h6>
+        <h6 class="item-text item-margin">06 18 23 73 31</h6>
+        <h6 class="item-text item-margin" style="margin-bottom: 30px;">j.serafini@mihivai.com</h6>
+      </div>
+       <div>
+
+        <h6 class="item-text item-margin">Claudine Pradal</h6>
+        <h6 class="item-text item-margin">07 67 51 06 48</h6>
+        <h6 class="item-text item-margin">clo.pradal@gmail.com</h6>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Timeline animation -->
+
+  <div class="wrapper-blue">
+    <h3 class="subtitle">Nos trois piliers</h3>
+
+    <ul class="timeline">
+
+    <!-- Item 1 -->
+      <li>
+        <div class="direction-r">
+          <div class="flag-wrapper">
+            <span class="flag">Accompagner</span>
+          </div>
+          <div class="desc" data-aos="fade-left">MihiVai mobilise à plein temps une équipe pluridisciplinaire de développeurs et de designers afin d'assurer le développement et l'accompagnement de vos projets.</div>
+        </div>
+      </li>
+
+      <!-- Item 2 -->
+      <li>
+        <div class="direction-l">
+          <div class="flag-wrapper">
+            <span class="flag">Transmettre</span>
+          </div>
+          <div class="desc" data-aos="fade-right">MihiVai est en partenariat avec de nombreux organismes de formations et de sensibilisation au numérique. Par le biais d’interventions et d’enseignements, elle contribue ainsi à la transmission du savoir.</div>
+        </div>
+      </li>
+
+      <!-- Item 3 -->
+      <li>
+        <div class="direction-r">
+          <div class="flag-wrapper">
+            <span class="flag">Innover</span>
+          </div>
+          <div class="desc" data-aos="fade-left">MihiVai s’investit également dans la recherche et le développement sur des thématiques qui lui parlent telles que l’enseignement et l’environnement afin de proposer des solutions innovantes.</div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+
+
+
+
+  <!-- Wrapper Équipe -->
+  <div class="wrapper" id="team">
+
+    <%= image_tag "scene_team.svg", class: "d-none d-lg-block position-absolute scene-team", alt: "scene team" %>
+    <%= image_tag "scene_team_cloud.svg", class: "d-none d-lg-block position-absolute scene-team-cloud", alt: "scene cloud" %>
+    <%= image_tag "scene_team_responsive.svg", class: "d-md-block d-lg-none", alt: "scene team responsive" %>
+
+    <div class="framer-content">
+      <div class="content-title">
+        <h2>Une équipe pluridisciplinaire et passionnée !</h2>
+        <h4>MihiVai intègre une équipe de collaborateurs avec des profils tels que des développeurs, designers et des enseignants-chercheurs.</h4>
+      </div>
+    </div>
+
+ <!-- Équipe -md -lg -xl -->
+
+    <div class="container-fluid employee-content d-none d-lg-block">
+      <div class="row">
+        <div class="col align-self-center">
+           <%= image_tag "jonathan.png", class: "avatar-new", alt: "jonathan serafini" %>
+
+
+        </div>
+
+          <div class="col align-self-start"><h3 class="txt-sky">Jonathan Serafini</h3><h4>CEO · Développeur web</h4><p class="employee-description">Issu d’une lignée d’aventuriers passionnés, j’aime pimenter mon quotidien de challenges, de renouvellements et de rencontres. Je suis convaincu que ces traits de caractère sont une composante forte de la philosophie du développeur dont le rôle est d’accompagner ses clients dans la conception de leurs projets avec leurs particularités et leurs défis techniques.</p>
+          </div>
+
+          <div class="col align-self-center"><p class="employee-quote txt-grey">« J’ai créé MihiVai avec l’ambition qu’elle me permette de partager et de m’aventurer sur des univers toujours différents. »</p>
+          </div>
+
+      </div>
+    </div>
+    <div class="container-fluid employee-content d-none d-lg-block">
+      <div class="row">
+        <div class="col align-self-center">
+           <%= image_tag "claudine.png", class: "avatar-new", alt: "claudine pradal" %>
+
+        </div>
+
+        <div class="col align-self-start"><h3 class="txt-sky">Claudine Pradal</h3><h4>CEO · Développeur web</h4><p class="employee-description">Convaincue que le partage de matière grise permet de développer des solutions nouvelles toujours plus optimales et adaptées, j’aborde le développement web comme un travail d’équipe, un accompagnement où chaque collaborateur du projet peut apporter sa pierre à l’édifice.</p></div>
+
+        <div class="col align-self-center"><p class="employee-quote txt-grey">« Curieuse, pétillante, je mets aujourd’hui mes compétences en gestion projet mêlées à celles du numérique au service de clients de tout horizon se lançant dans leur aventure digitale. »</p></div>
+      </div>
+    </div>
+    <div class="container-fluid employee-content d-none d-lg-block">
+      <div class="row">
+        <div class="col align-self-center">
+          <%= image_tag "florent.png", class: "avatar-new", alt: "florent legeron" %>
+        </div>
+
+        <div class="col align-self-start"><h3 class="txt-sky">Florent Legeron</h3><h4>Développeur web</h4><p class="employee-description">Consciencieux, attentif aux détails, je peux passer des nuits à refaire la configuration de mon ordinateur, juste pour mon plaisir perso.</p></div>
+
+        <div class="col align-self-center"><p class="employee-quote txt-grey">« Enfant du bassin d'Arcachon et ancien chauffeur / livreur j'ai effectué un virage à 180 degré afin de travailler dans un domaine qui me passionne, le développement web. »</p></div>
+      </div>
+    </div>
+
+     <!-- Équipe -xs -md -->
+
+
+    <div class="employee-content-center d-lg-none">
+      <%= image_tag "jonathan.png", class: "avatar-new", alt: "jonathan serafini" %>
+      <h3 class="txt-sky">Jonathan Serafini</h3>
+      <h4>CEO · Développeur web</h4>
+      <p class="employee-quote txt-grey">« J’ai créé MihiVai avec l’ambition qu’elle me permette de partager et de m’aventurer sur des univers toujours différents. »</p>
+
+      <%= image_tag "claudine.png", class: "avatar-new", alt: "claudine pradal" %>
+      <h3 class="txt-sky">Claudine Pradal</h3>
+      <h4>CEO · Développeur web</h4>
+      <p class="employee-quote txt-grey">« Curieuse, pétillante, je met aujourd’hui mes compétences en gestion projet mêlées à celles du numérique au service de clients de tout horizon se lançant dans leur aventure digitale. »</p>
+
+      <%= image_tag "florent.png", class: "avatar-new", alt: "florent legeron" %>
+      <h3 class="txt-sky">Florent Legeron</h3>
+      <h4>Développeur web</h4>
+      <p class="employee-quote txt-grey">« Enfant du bassin d'Arcachon et ancien chauffeur / livreur j'ai effectué un virage à 180 degré afin de travailler dans un domaine qui me passionne, le développement web. »</p>
+
+    </div>
+
+  </div>
+
+  <!-- ACCOMPAGNER -->
+<div class="wrapper" id="projects">
+
+    <%= image_tag "scene_projects_window.svg", class: "d-none d-lg-block position-absolute scene-window", alt: "scene window" %>
+    <%= image_tag "scene_projects_persona.svg", class: "d-none d-lg-block position-absolute scene-persona", alt: "scene persona" %>
+    <%= image_tag "scene_projects_responsive.svg", class: "d-md-block d-lg-none", alt: "scene projects responsive" %>
+
+  <div class="framer-content">
+
+      <h5 class="txt-sky">ACCOMPAGNER</h5>
+      <h2>Un accompagnement personnalisé et durable de vos projets.</h2>
+      <h4>MihiVai a déjà accompagné plusieurs entreprises dans la conception et/ou la maintenance de leurs outils numériques. Nous sommes heureux d'avoir pu contribuer à la réalisation de leurs projets.</h4>
+
+  </div>
+
+                <!-- ACCOMPAGNER projets 3d -->
+
+    <div class="project-object-boxA d-none d-md-block">
+        <%= image_tag "desktop_object_opt.png", class: "object-a", alt: "ouipharma3d" %>
+
+        <div class="po-boxA">
+          <p class="po-title">Ouipharma
+          <span><br>2019</span></p>
+          <p class="po-txt">Développement du site internet. Utilisation des technologies telles que :</p>
+
+          <img src="image-new/icon_softwares_ouipharma.svg" alt="logo softwares" style="height: 60px;">
+           <a href="https://www.ouipharma.fr/" class="projects-link" target="_blank">visiter le site</a>
+        </div>
+    </div>
+
+    <div class="project-object-boxB d-none d-md-block">
+      <div class="po-boxB">
+        <p class="po-title">BUTRFLY
+        <span><br>2019</span></p></p>
+        <p class="po-txt">Développement de l'interface utilisateur, utilisation du système de paiement en ligne Stripe, mise en place d'une map interactive ppur mettre en relation famille et au-pair.</p>
+        <a href="https://www.aupairbutrfly.com/" class="projects-link" target="_blank">visiter le site</a>
+      </div>
+
+      <%= image_tag "iphone_object_opt.png", class: "object-b", alt: "butterfly3d" %>
+
+    </div>
+
+  <!-- CONTACT FORM -->
+    <div class="mihivai-contact-form">
+      <p class="contact-form-question">
+        Vous voulez être accompagnés dans votre projet ?
+      </p>
+      <a href="" class="contact-form-link">
+        Entrons en contact.
+      </a>
+    </div>
+
+
+  <!-- ACCOMPAGNER projets cards -->
+ <h3 class="subtitle txt-grey">Les derniers projets :</h3>
+
+  <!-- TEST  -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="hovereffect">
+
+        <%= image_tag "card_pena.png", class: "img-responsive", alt: "pena" %>
+        <div class="overlay">
+          <p class="icon-links">
+
+            <a href="">
+              <span><%= image_tag "icon_rails.png", class: "test", alt: "icon rails" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_js.png", class: "test", alt: "icon js" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_html.png", class: "test", alt: "icon html" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_css.png", class: "test", alt: "icon css" %></span>
+            </a>
+
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="hovereffect">
+        <%= image_tag "card_stagein.jpg", class: "img-responsive", alt: "stagein" %>
+        <div class="overlay">
+          <p class="icon-links">
+
+            <a href="">
+              <span><%= image_tag "icon_rails.png", class: "test", alt: "icon rails" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_js.png", class: "test", alt: "icon js" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_html.png", class: "test", alt: "icon html" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_css.png", class: "test", alt: "icon css" %></span>
+            </a>
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix visible-sm-block"></div>
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="hovereffect">
+        <%= image_tag "card_ludoria.png", class: "img-responsive", alt: "ludoria" %>
+        <div class="overlay">
+
+         <p class="icon-links">
+
+            <a href="">
+              <span><%= image_tag "icon_rails.png", class: "test", alt: "icon rails" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_js.png", class: "test", alt: "icon js" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_html.png", class: "test", alt: "icon html" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_css.png", class: "test", alt: "icon css" %></span>
+            </a>
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix visible-md-block"></div>
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="hovereffect">
+        <%= image_tag "card_aeb.jpg", class: "img-responsive", alt: "aeb" %>
+        <div class="overlay">
+          <p class="icon-links">
+            <a href="">
+              <span><%= image_tag "icon_rails.png", class: "test", alt: "icon rails" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_html.png", class: "test", alt: "icon html" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_css.png", class: "test", alt: "icon css" %></span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix visible-sm-block"></div>
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="hovereffect">
+        <%= image_tag "card_zenest.png", class: "img-responsive", alt: "zenest" %>
+        <div class="overlay">
+          <p class="icon-links">
+             <a href="">
+              <span><%= image_tag "icon_stripe.png", class: "test", alt: "icon stripe" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_rails.png", class: "test", alt: "icon rails" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_js.png", class: "test", alt: "icon js" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_html.png", class: "test", alt: "icon html" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_css.png", class: "test", alt: "icon css" %></span>
+            </a>
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="hovereffect">
+        <%= image_tag "card_ouirestau.jpg", class: "img-responsive", alt: "ouirestau" %>
+        <div class="overlay">
+          <p class="icon-links">
+            <a href="">
+              <span><%= image_tag "icon_rails.png", class: "test", alt: "icon rails" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_html.png", class: "test", alt: "icon html" %></span>
+            </a>
+            <a href="">
+              <span><%= image_tag "icon_css.png", class: "test", alt: "icon css" %></span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix visible-md-block"></div>
+    <div class="clearfix visible-sm-block"></div>
+
+    </div>
+  </div>
+
+
 </div>
+
+  <!-- TRANSMETTRE -->
+  <div class="wrapper" id="teaching">
+
+    <%= image_tag "scene_teaching_students.svg", class: "d-none d-lg-block position-absolute scene-students", alt: "scene students" %>
+    <%= image_tag "scene_teaching_teacher.svg", class: "d-none d-lg-block position-absolute scene-teacher", alt: "scene-teacher" %>
+    <%= image_tag "scene_teaching_responsive.svg", class: "d-md-block d-lg-none", alt: "scene-student" %>
+
+
+    <div class="framer-content">
+        <h5 class="txt-sky">TRANSMETTRE</h5>
+        <h2>Former les acteurs numériques de demain.</h2>
+        <h4>Parce que la transmission fait partie de nos valeurs mais aussi parce que nous croyons que notre époque est un moment charnière de la transition numérique, nous avons fait l’engagement d’accompagner et de former les acteurs du web de demain.</h4>
+      <div class="counter-frame">
+        <p class="counter-txt">Déjà</p>
+        <span id="counter"></span>
+        <script>
+      var i=720;
+      var timer = setInterval(function(){
+        document.querySelector("#counter").textContent = i++;
+          if(i>728){
+            clearInterval(timer);
+            document.querySelector("#counter").classList.add("end");
+                   }
+                 }, 80);
+
+        </script>
+        <p class="counter-txt txt-sky">apprenants</p>
+        <p class="counter-txt">sur les différents sites où nous enseignons.</p>
+
+      </div>
+    </div>
+  </div>
+
+    <!-- INNOVER -->
+  <div class="wrapper">
+
+    <%= image_tag "scene_research_robot.svg", class: "d-none d-lg-block position-absolute scene-robot", alt: "scene robot" %>
+    <%= image_tag "scene_research_scientist.svg", class: "d-none d-lg-block position-absolute scene-scientist", alt: "scene scientist" %>
+    <%= image_tag "scene_research_responsive.svg", class: "d-md-block d-lg-none", alt: "scene equipe" %>
+
+      <div class="framer-content">
+
+        <h5 class="txt-sky">INNOVER</h5>
+        <h2>S’investir dans la Recherche et le Développement.</h2>
+        <h4>MihiVai utilise des technologies robustes et flexibles permettant de répondre au mieux aux différentes problématiques back-end et front-end afin de façonner un projet qui vous ressemble. Nous faisons également une veille permanente afin d’intégrer les dernières tendances du web lors de la conception.</h4>
+
+    </div>
+  </div>
+
+<!-- big-wrapper END -->
+</div>
+
