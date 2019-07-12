@@ -205,21 +205,23 @@
         <%= image_tag "desktop_object_opt.png", class: "object-a", alt: "ouipharma3d" %>
 
         <div class="po-boxA">
-          <p class="po-title">Ouipharma
-          <span><br>2019</span></p>
-          <p class="po-txt">Développement du site internet. Utilisation des technologies telles que :</p>
+          <p class="po-title"><a href="https://www.ouipharma.fr/" class="projects-link" target="_blank">Ouipharma</a><span><br>2019</span></p>
+          <p class="po-txt">Développement de l'interface utilisateur, utilisation du système de paiement en ligne Stripe, mise en place d'une map interactive pour mettre en relation famille et au-pair.</p>
 
-          <img src="image-new/icon_softwares_ouipharma.svg" alt="logo softwares" style="height: 60px;">
-           <a href="https://www.ouipharma.fr/" class="projects-link" target="_blank">visiter le site</a>
+          <p class="quote-techno">Réalisé avec : </p>
+          <%= image_tag "icon_ouipharma.png", class: "icon-size", alt: "icon ouipharma" %>
+
+<!--<img src="image-new/icon_softwares_ouipharma.svg" alt="logo softwares" style="height: 60px;"> -->
+
         </div>
     </div>
 
     <div class="project-object-boxB d-none d-md-block">
       <div class="po-boxB">
-        <p class="po-title">BUTRFLY
-        <span><br>2019</span></p></p>
-        <p class="po-txt">Développement de l'interface utilisateur, utilisation du système de paiement en ligne Stripe, mise en place d'une map interactive ppur mettre en relation famille et au-pair.</p>
-        <a href="https://www.aupairbutrfly.com/" class="projects-link" target="_blank">visiter le site</a>
+        <p class="po-title"><a href="https://www.aupairbutrfly.com/" class="projects-link" target="_blank">BUTRFLY</a><span><br>2019</span></p>
+        <p class="po-txt">Développement de l'interface utilisateur, utilisation du système de paiement en ligne Stripe, mise en place d'une map interactive pour mettre en relation famille et au-pair.</p>
+        <p class="quote-techno">Réalisé avec :</p>
+        <%= image_tag "icon_buttrfly.png", class: "icon-size", alt: "icon ouipharma" %>
       </div>
 
       <%= image_tag "iphone_object_opt.png", class: "object-b", alt: "butterfly3d" %>
@@ -240,14 +242,14 @@
   <!-- ACCOMPAGNER projets cards -->
  <h3 class="subtitle txt-grey">Les derniers projets :</h3>
 
-  <!-- TEST  -->
+  <!-- Cards  -->
 
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="hovereffect">
 
-        <%= image_tag "card_pena.png", class: "img-responsive", alt: "pena" %>
+        <a href="https://www.pena.fr/" target="_blank"><%= image_tag "card_pena.png", class: "img-responsive", alt: "pena" %></a>
         <div class="overlay">
           <p class="icon-links">
 
@@ -272,7 +274,7 @@
 
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="hovereffect">
-        <%= image_tag "card_stagein.jpg", class: "img-responsive", alt: "stagein" %>
+        <a href="https://www.stage-in.fr/" target="_blank"><%= image_tag "card_stagein.png", class: "img-responsive", alt: "stagein" %></a>
         <div class="overlay">
           <p class="icon-links">
 
@@ -298,7 +300,7 @@
 
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="hovereffect">
-        <%= image_tag "card_ludoria.png", class: "img-responsive", alt: "ludoria" %>
+        <a href="https://www.ludoria.fr/" target="_blank"><%= image_tag "card_ludoria.png", class: "img-responsive", alt: "ludoria" %></a>
         <div class="overlay">
 
          <p class="icon-links">
@@ -325,7 +327,7 @@
 
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="hovereffect">
-        <%= image_tag "card_aeb.jpg", class: "img-responsive", alt: "aeb" %>
+        <a href="https://www.aeb-brioude.com/" target="_blank"><%= image_tag "card_aeb.jpg", class: "img-responsive", alt: "aeb" %></a>
         <div class="overlay">
           <p class="icon-links">
             <a href="">
@@ -346,7 +348,7 @@
 
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="hovereffect">
-        <%= image_tag "card_zenest.png", class: "img-responsive", alt: "zenest" %>
+        <a href="https://www.zenest.pro/" target="_blank"><%= image_tag "card_zenest.png", class: "img-responsive", alt: "zenest" %></a>
         <div class="overlay">
           <p class="icon-links">
              <a href="">
@@ -372,7 +374,7 @@
 
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="hovereffect">
-        <%= image_tag "card_ouirestau.jpg", class: "img-responsive", alt: "ouirestau" %>
+        <a href="https://www.ouirestauration.fr/" target="_blank"><%= image_tag "card_ouirestau.jpg", class: "img-responsive", alt: "ouirestau" %></a>
         <div class="overlay">
           <p class="icon-links">
             <a href="">
