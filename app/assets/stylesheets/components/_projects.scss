@@ -226,3 +226,11 @@ img.test {
   padding: 0 10px;
   }
 }
+
+@media (max-width: 767px) {
+  img.test {
+  width: auto;
+  height: 30px;
+  padding: 0 10px;
+  }
+}
