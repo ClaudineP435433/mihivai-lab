@@ -84,6 +84,19 @@
     <script>
       AOS.init();
     </script>
+    <script>
+        var i=712;
+        var timer = setInterval(function(){
+        document.querySelector("#counter").textContent = i++;
+          if(i>728){
+            clearInterval(timer);
+            document.querySelector("#counter").classList.add("end");
+             }
+          }, 120);
+          </script>
+
+
+
 
 
   </body>

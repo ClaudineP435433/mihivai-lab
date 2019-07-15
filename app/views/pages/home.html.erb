@@ -231,11 +231,11 @@
   <!-- CONTACT FORM -->
     <div class="mihivai-contact-form">
       <p class="contact-form-question">
-        Vous voulez être accompagnés dans votre projet ?
+        Envie d'être accompagnés dans votre projet ?
       </p>
-      <a href="" class="contact-form-link">
-        Entrons en contact.
-      </a>
+
+      <input type="email" id="email"
+       pattern=".+@globex.com" size="30" placeholder="Votre mail" required>
     </div>
 
 
@@ -405,33 +405,38 @@
 
     <%= image_tag "scene_teaching_students.svg", class: "d-none d-lg-block position-absolute scene-students reveal-4", alt: "scene students" %>
     <%= image_tag "scene_teaching_teacher.svg", class: "d-none d-lg-block position-absolute scene-teacher", alt: "scene-teacher" %>
-    <%= image_tag "scene_teaching_responsive.svg", class: "d-md-block d-lg-none", alt: "scene-student" %>
 
+    <%= image_tag "frenchtech_partenaire.svg", class: "d-none d-lg-block position-absolute frenchtech", alt: "french tech partenaire" %>
+    <%= image_tag "scene_teaching_responsive-ft.svg", class: "d-md-block d-lg-none", alt: "scene-student" %>
 
-    <div class="framer-content reveal">
+      <div class="framer-content reveal">
         <h5 class="txt-sky">TRANSMETTRE</h5>
         <h2 class="reveal-2">Former les acteurs numériques de demain.</h2>
         <h4 class="reveal-3">Parce que la transmission fait partie de nos valeurs mais aussi parce que nous croyons que notre époque est un moment charnière de la transition numérique, nous avons fait l’engagement d’accompagner et de former les acteurs du web de demain.</h4>
-      <div class="counter-frame">
-        <p class="counter-txt">Déjà</p>
-        <span id="counter"></span>
-        <script>
-      var i=720;
-      var timer = setInterval(function(){
-        document.querySelector("#counter").textContent = i++;
-          if(i>728){
-            clearInterval(timer);
-            document.querySelector("#counter").classList.add("end");
-                   }
-                 }, 80);
-
-        </script>
-        <p class="counter-txt txt-sky">apprenants</p>
-        <p class="counter-txt">sur les différents sites où nous enseignons.</p>
 
       </div>
+
+
+
+      <!-- Progress bar -->
+    <div class="progressbar">
+
+      <div class="counter-frame">
+        <span id="counter"></span>
+        <section class="radial-chart">
+          <svg class="radial-chart__svg" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+          <circle cx="100" cy="100" r="54" fill="none" stroke="#b1f8f0" stroke-width="12" />
+          <circle class="radial-chart__value" cx="100" cy="100" r="54" fill="none" stroke="#85f1e6" stroke-width="12" stroke-dasharray="339.292" stroke-dashoffset="339.292"/>
+          </svg>
+        </section>
+      </div>
+        <p class="counter-txt"> Apprenants, déjà formés dans les différents sites où nous enseignons !</p>
     </div>
+
+
+
   </div>
+
 
     <!-- INNOVER -->
   <div class="wrapper reveal">

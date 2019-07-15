@@ -36,7 +36,6 @@ body {
   }
 }
 
-
 .framer-content h2 {
   max-width: 500px;
   margin: auto;
@@ -63,9 +62,7 @@ h5 {
   text-align: center;
   margin-bottom: 20px;
 
-
 }
-
 
 .position-absolute {
   position: absolute;
@@ -127,12 +124,15 @@ h5 {
   z-index: 10;
 }
 
+.frenchtech {
+  top: 0;
+  left: 0;
+  height: 200px;
+}
 
 .txt-sky {
   color: #03e0ca;
 }
-
-
 
 .subtitle {
   text-align: center;
@@ -143,8 +143,6 @@ h5 {
 .txt-grey {
   color: #b9b9b9;
 }
-
-
 
 .reveal-loaded .reveal [class*="reveal-"] {
     opacity: 0;
@@ -167,6 +165,8 @@ h5 {
 .reveal-loaded .reveal-4 {
     transition-delay: .3s;
 }
+
+
 
 
 
