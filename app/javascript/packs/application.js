@@ -1,2 +1,2 @@
 import "bootstrap";
-import "../components/timer";
+// import "../components/timer";

@@ -14,6 +14,8 @@
 @media (max-width: 767px) {
   .banner {
     height: 400px;
+    display: -webkit-box;
+    justify-content: flex-start;
   }
 
 }
