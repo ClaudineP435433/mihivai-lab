@@ -8,12 +8,10 @@
 
 #counter{
 
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
 
 }
-
-
 
 
 .end{
@@ -23,8 +21,8 @@
 .counter-txt {
   text-align: center;
   font-size: 25px;
-  margin: 100px auto;
-  width: 300px;
+  margin: 65px auto 30px auto;
+  width: 400px;
 
 }
 
@@ -35,6 +33,7 @@
 span {
   text-align: center;
 }
+
 
 .radial-chart {
   display: flex;
@@ -49,7 +48,6 @@ span {
 }
 
 
-
 .radial-chart__svg {
   max-width: 100%;
   transform: rotate(-0.25turn);
@@ -58,7 +56,7 @@ span {
 .radial-chart__value {
   stroke-dasharray: 550.292;
   stroke-dashoffset: 550.292;
-  animation: timer 2s linear forwards;
+  animation: timer 1.5s linear forwards;
 }
 
 .radial-chart__value--inner {
