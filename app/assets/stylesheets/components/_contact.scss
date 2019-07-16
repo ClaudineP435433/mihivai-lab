@@ -1,0 +1,40 @@
+.mihivai-contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  font-size: 30px;
+  margin: 80px 0;
+  padding: 60px 170px;
+
+}
+
+
+.contact-form-question {
+  width: 300px;
+  font-weight: 700;
+}
+
+
+
+
+@media (max-width: 991px) {
+
+
+  .mihivai-contact-form {
+      text-align: center;
+      margin: 80px 0;
+      padding: 30px 50px;
+  }
+
+
+  .contact-form-question {
+    margin: auto;
+  }
+
+  .contact-form-link {
+    margin: auto;
+  }
+}
+
