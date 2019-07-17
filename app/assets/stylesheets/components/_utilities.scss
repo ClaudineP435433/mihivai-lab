@@ -10,6 +10,11 @@ body {
   font-size: 14px;
 }
 
+h4 {
+  font-size: 18px;
+}
+
+
 .wrapper:nth-child(2n) {
 
   background-color: #FAF8F8;
@@ -35,11 +40,7 @@ body {
 
 }
 
-@media (max-width: 991px) {
-  .framer-content {
-    margin-bottom: 80px;
-  }
-}
+
 
 .framer-content h2 {
   max-width: 500px;
@@ -62,7 +63,6 @@ body {
 }
 
 h5 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   text-align: center;
   margin-bottom: 20px;
@@ -173,7 +173,26 @@ h5 {
 
 
 
+@media (max-width: 767px) {
+  .framer-content {
 
+    width: 90%;
+  }
+
+  .framer-content h2 {
+    font-size: 26px;
+  }
+
+  .framer-content h4 {
+    font-size: 16px;
+    margin: 15px auto;
+  }
+
+  .framer-content h5 {
+    font-size: 12px;
+
+  }
+}
 
 
 

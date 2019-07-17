@@ -1,38 +1,58 @@
 
 
-h4 {
-  font-size: 18px;
-}
-
-.employee-content {
+.team-frame {
   margin: auto;
   margin-top: 0px;
   margin-bottom: 20px;
-
-  width: 70%
+  width: 80%
 }
-.avatar-new {
+
+.team-frame img {
   width: 200px;
   margin-bottom: 40px;
 
 }
 
-/* responsive */
-
-.employee-quote {
-
-  font-size: 22px;
+.team-quote {
+  font-size: 20px;
   line-height: 24px;
   color: #b9b9b9;
-  margin-bottom: 100px;
+  width: 18vw;
+}
 
-
+.team-description {
+  font-size: 16px;
 }
 
 
-.employee-content-center {
-  margin: auto;
-  width: 300px;
-  text-align: center;
+
+@media (max-width: 991px) {
+
+  .team-frame {
+    text-align: center;
+
+  }
+
+  .team-frame img {
+  width: 150px;
+  margin: 30px 0;
+
+  }
+
+  .team-frame h4 {
+    font-size: 16px;
+  }
+
+  .team-frame h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .team-quote {
+    width: 80vw;
+    font-size: 16px;
+    line-height: 18px;
+
+  }
 
 }
