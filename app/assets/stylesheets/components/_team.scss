@@ -1,16 +1,26 @@
 
 
 .team-frame {
-  margin: auto;
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin: 0 auto;
+
+  margin-bottom: 60px;
   width: 80%
 }
 
 .team-frame img {
-  width: 200px;
+  width: 150px;
   margin-bottom: 40px;
 
+}
+
+.team-frame h3 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+.team-frame h4 {
+  font-size: 20px;
 }
 
 .team-quote {
@@ -22,8 +32,8 @@
 
 .team-description {
   font-size: 16px;
+  line-height: 20px;
 }
-
 
 
 @media (max-width: 991px) {
@@ -34,8 +44,8 @@
   }
 
   .team-frame img {
-  width: 150px;
-  margin: 30px 0;
+    width: 150px;
+    margin: 30px 0;
 
   }
 
@@ -45,7 +55,7 @@
 
   .team-frame h3 {
     font-size: 18px;
-    font-weight: 700;
+
   }
 
   .team-quote {
