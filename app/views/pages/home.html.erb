@@ -1,5 +1,9 @@
 <%= content_for :meta_title, "Yourdomain - Your Meta" %>
 
+
+
+
+
   <!-- Banner -->
 <%#= image_tag "logo_banner.svg", class: "", alt: "" %>
   <div class="banner">
@@ -32,6 +36,7 @@
       </div>
     </div>
   </div>
+
 
   <div class="item-section-responsive d-md-none item-banner-absolute-responsive">
     <h5 class="item-title"><b>Services</b></h5>
@@ -98,64 +103,80 @@
 
  <!-- Équipe -md -lg -xl -->
 
-    <div class="container-fluid employee-content d-none d-lg-block">
+    <div class="container-fluid d-none d-lg-block team-frame">
       <div class="row">
-        <div class="col align-self-center">
-           <%= image_tag "jonathan.png", class: "avatar-new", alt: "jonathan serafini" %>
 
+        <div class="col-md-3 text-center">
+           <%= image_tag "jonathan.png", alt: "jonathan serafini" %>
         </div>
 
-          <div class="col align-self-start"><h3 class="txt-sky">Jonathan Serafini</h3><h4>CEO · Développeur web</h4><p class="employee-description">Issu d’une lignée d’aventuriers passionnés, j’aime pimenter mon quotidien de challenges, de renouvellements et de rencontres. Je suis convaincu que ces traits de caractère sont une composante forte de la philosophie du développeur dont le rôle est d’accompagner ses clients dans la conception de leurs projets avec leurs particularités et leurs défis techniques.</p>
-          </div>
+        <div class="col align-self-start">
+          <h4>Jonathan Serafini</h4>
+          <h3>CEO · Développeur web</h3>
+          <p class="team-description">Issu d’une lignée d’aventuriers passionnés, j’aime pimenter mon quotidien de challenges, de renouvellements et de rencontres. Je suis convaincu que ces traits de caractère sont une composante forte de la philosophie du développeur dont le rôle est d’accompagner ses clients dans la conception de leurs projets avec leurs particularités et leurs défis techniques.</p>
+        </div>
 
-          <div class="col align-self-center"><p class="employee-quote txt-grey">« J’ai créé MihiVai avec l’ambition qu’elle me permette de partager et de m’aventurer sur des univers toujours différents. »</p>
-          </div>
+        <div class="col align-self-center">
+          <p class="team-quote">« J’ai créé MihiVai avec l’ambition qu’elle me permette de partager et de m’aventurer sur des univers toujours différents. »</p>
+        </div>
 
       </div>
     </div>
-    <div class="container-fluid employee-content d-none d-lg-block">
+    <div class="container-fluid d-none d-lg-block team-frame">
       <div class="row">
-        <div class="col align-self-center">
-           <%= image_tag "claudine.png", class: "avatar-new", alt: "claudine pradal" %>
+        <div class="col-md-3 text-center">
+           <%= image_tag "claudine.png", alt: "claudine pradal" %>
 
         </div>
 
-        <div class="col align-self-start"><h3 class="txt-sky">Claudine Pradal</h3><h4>CEO · Développeur web</h4><p class="employee-description">Convaincue que le partage de matière grise permet de développer des solutions nouvelles toujours plus optimales et adaptées, j’aborde le développement web comme un travail d’équipe, un accompagnement où chaque collaborateur du projet peut apporter sa pierre à l’édifice.</p></div>
+        <div class="col align-self-start">
+          <h4>Claudine Pradal</h4>
+          <h3>CEO · Développeur web</h3>
+          <p class="team-description">Convaincue que le partage de matière grise permet de développer des solutions nouvelles toujours plus optimales et adaptées, j’aborde le développement web comme un travail d’équipe, un accompagnement où chaque collaborateur du projet peut apporter sa pierre à l’édifice.</p>
+        </div>
 
-        <div class="col align-self-center"><p class="employee-quote txt-grey">« Curieuse, pétillante, je mets aujourd’hui mes compétences en gestion projet mêlées à celles du numérique au service de clients de tout horizon se lançant dans leur aventure digitale. »</p></div>
+        <div class="col align-self-center">
+          <p class="team-quote">« Curieuse, pétillante, je mets aujourd’hui mes compétences en gestion projet mêlées à celles du numérique au service de clients de tout horizon se lançant dans leur aventure digitale. »</p>
+        </div>
       </div>
     </div>
-    <div class="container-fluid employee-content d-none d-lg-block">
+
+    <div class="container-fluid d-none d-lg-block team-frame">
       <div class="row">
-        <div class="col align-self-center">
-          <%= image_tag "florent.png", class: "avatar-new", alt: "florent legeron" %>
+        <div class="col-md-3 text-center">
+          <%= image_tag "florent.png", alt: "florent legeron" %>
         </div>
 
-        <div class="col align-self-start"><h3 class="txt-sky">Florent Legeron</h3><h4>Développeur web</h4><p class="employee-description">Consciencieux, attentif aux détails, je peux passer des nuits à refaire la configuration de mon ordinateur, juste pour mon plaisir perso.</p></div>
+        <div class="col align-self-start">
+          <h4>Florent Legeron</h4>
+          <h3>Développeur web</h3>
+          <p class="team-description">Consciencieux, attentif aux détails, je peux passer des nuits à refaire la configuration de mon ordinateur, juste pour mon plaisir perso.</p>
+        </div>
 
-        <div class="col align-self-center"><p class="employee-quote txt-grey">« Enfant du bassin d'Arcachon et ancien chauffeur / livreur j'ai effectué un virage à 180 degré afin de travailler dans un domaine qui me passionne, le développement web. »</p></div>
+        <div class="col align-self-center">
+          <p class="team-quote">« Enfant du bassin d'Arcachon et ancien chauffeur / livreur j'ai effectué un virage à 180 degré afin de travailler dans un domaine qui me passionne, le développement web. »</p>
+        </div>
       </div>
     </div>
 
      <!-- Équipe -xs -md -->
 
 
-    <div class="employee-content-center d-lg-none">
-      <%= image_tag "jonathan.png", class: "avatar-new", alt: "jonathan serafini" %>
-      <h3 class="txt-sky">Jonathan Serafini</h3>
-      <h4>CEO · Développeur web</h4>
-      <p class="employee-quote txt-grey">« J’ai créé MihiVai avec l’ambition qu’elle me permette de partager et de m’aventurer sur des univers toujours différents. »</p>
+    <div class="d-lg-none team-frame">
+      <%= image_tag "jonathan.png", alt: "jonathan serafini" %>
+      <h4>Jonathan Serafini</h4>
+      <h3>CEO · Développeur web</h3>
+      <p class="team-quote">« J’ai créé MihiVai avec l’ambition qu’elle me permette de partager et de m’aventurer sur des univers toujours différents. »</p>
 
-      <%= image_tag "claudine.png", class: "avatar-new", alt: "claudine pradal" %>
-      <h3 class="txt-sky">Claudine Pradal</h3>
-      <h4>CEO · Développeur web</h4>
-      <p class="employee-quote txt-grey">« Curieuse, pétillante, je met aujourd’hui mes compétences en gestion projet mêlées à celles du numérique au service de clients de tout horizon se lançant dans leur aventure digitale. »</p>
+      <%= image_tag "claudine.png", alt: "claudine pradal" %>
+      <h4>Claudine Pradal</h4>
+      <h3>CEO · Développeur web</h3>
+      <p class="team-quote">« Curieuse, pétillante, je met aujourd’hui mes compétences en gestion projet mêlées à celles du numérique au service de clients de tout horizon se lançant dans leur aventure digitale. »</p>
 
-      <%= image_tag "florent.png", class: "avatar-new", alt: "florent legeron" %>
-      <h3 class="txt-sky">Florent Legeron</h3>
-      <h4>Développeur web</h4>
-      <p class="employee-quote txt-grey">« Enfant du bassin d'Arcachon et ancien chauffeur / livreur j'ai effectué un virage à 180 degré afin de travailler dans un domaine qui me passionne, le développement web. »</p>
-
+      <%= image_tag "florent.png", alt: "florent legeron" %>
+      <h4>Florent Legeron</h4>
+      <h3>Développeur web</h3>
+      <p class="team-quote">« Enfant du bassin d'Arcachon et ancien chauffeur / livreur j'ai effectué un virage à 180 degré afin de travailler dans un domaine qui me passionne, le développement web. »</p>
     </div>
 
   </div>
@@ -211,7 +232,7 @@
       </p>
 
       <input type="email" id="email"
-       pattern=".+@globex.com" size="30" placeholder="Votre mail" required>
+       pattern=".+@globex.com" size="20" placeholder="Votre mail" required>
     </div>
 
 
@@ -276,7 +297,9 @@
 
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="hovereffect">
-        <a href="https://www.ludoria.fr/" target="_blank"><%= image_tag "card_ludoria.png", class: "img-responsive", alt: "ludoria" %></a>
+        <a href="https://www.ludoria.fr/" target="_blank">
+          <%= image_tag "card_ludoria.png", class: "img-responsive", alt: "ludoria" %>
+        </a>
         <div class="overlay">
 
          <p class="icon-links">

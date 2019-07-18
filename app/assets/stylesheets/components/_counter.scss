@@ -1,5 +1,5 @@
 .counter-frame {
-  margin: 40px auto;
+  margin: 20px auto;
   text-align: center;
   position: relative;
 
@@ -91,5 +91,11 @@ span {
   }
 }
 
+@media (max-width: 991px) {
+  .counter-frame {
+  margin: 100px auto;
+  }
+
+}
 
 
