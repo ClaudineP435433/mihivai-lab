@@ -1,14 +1,12 @@
 .counter-frame {
-  margin: 20px auto;
+  margin: 30px auto;
   text-align: center;
   position: relative;
 
 }
-
-
 #counter{
 
-  font-size: 50px;
+  font-size: 65px;
   text-align: center;
 
 }
@@ -20,7 +18,7 @@
 
 .counter-txt {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   margin: 65px auto 30px auto;
   width: 400px;
 
@@ -46,7 +44,6 @@ span {
   left: 0;
 
 }
-
 
 .radial-chart__svg {
   max-width: 100%;
@@ -96,6 +93,10 @@ span {
   margin: 100px auto;
   }
 
+  .counter-txt {
+
+  font-size: 12px;
+  }
 }
 
 
